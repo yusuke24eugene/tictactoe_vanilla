@@ -1,0 +1,82 @@
+*{
+    background: grey;
+    cursor: pointer;  
+  }
+  .title{
+      height: 100px;
+      width: 450px;
+      margin-top: 100px;
+      font-size: 5em;
+      color: navy;
+      text-align: center;
+      background: whitesmoke;
+      border: 3px solid black;
+      border-radius: 20px;
+      position: fixed;
+      left: 30%;               
+  }
+  #ai{
+      height: 50px;
+      width: 200px;
+      font-size: 2em;
+      margin: 0;
+      color: blue;
+      background: yellow;
+      text-align: center;
+      padding-top: 5px;
+      position: fixed;
+      top: 45%;
+      left: 40%;
+      border: 3px solid black;
+      border-radius: 10px;
+      cursor: pointer;
+  }
+  #ai:hover{
+      background: pink;
+  }
+  #pvp{
+      height: 50px;
+      width: 250px;
+      font-size: 2em;
+      margin: 0;
+      color: blue;
+      background: yellow;
+      text-align: center;
+      padding-top: 5px;
+      position: fixed;
+      top: 60%;
+      left: 38%;
+      border: 3px solid black;
+      border-radius: 10px;
+      cursor: pointer;
+  }
+  #pvp:hover{
+      background: pink;
+  }
+  .select{
+      font-size: 2em;
+      margin: 0;
+      color: blue;
+      position: fixed;
+      left: 42%;
+      top: 75%;
+  }
+  #menu{
+  height: 70px;
+  width: auto;
+  margin: 0;
+  padding: 0 10px;
+  background: skyblue;
+  font-size: 1.5em;
+  position: relative;
+  top: 5%;
+  left: 90%;
+  position: absolute;
+  border: 3px solid black;
+  border-radius: 20px;
+  visibility: visible;
+  font-weight: bold;
+}
+#menu:hover{
+background: rgba(255, 192, 203, 0.90);
+}

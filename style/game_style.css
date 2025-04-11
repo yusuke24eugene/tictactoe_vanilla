@@ -1,0 +1,163 @@
+*{
+    background: grey;
+    cursor: pointer;
+}
+.container{
+    height: 600px;
+    width: 600px;
+    background: white;
+    margin: 5px auto;
+    border: 5px solid black;
+    display: grid;
+    grid: 200px / 200px 200px 200px;
+    cursor: pointer;
+}
+.Tic-Tac-Toe{
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    margin: 5px;
+}
+section div{
+    margin: 0;
+    border: 2px solid black;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+section div:hover{
+    background: rgba(255, 192, 203, 0.90);
+}
+section div p{
+    padding: 0;
+    display: block;
+    background: inherit;
+    font-size: 7em;
+    margin: auto;
+    visibility: hidden;
+}
+#xcontainer{
+    height: 50px;
+    width: auto;
+    margin: 0;
+    padding: 20px 10px;
+    background: pink;
+    font-size: 3em;
+    position: relative;
+    top: 50%;
+    left: 10%;
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 20px;
+    visibility: visible;
+}
+#ocontainer{
+    height: 50px;
+    width: auto;
+    margin: 0;
+    padding: 20px 10px;
+    background: pink;
+    font-size: 3em;
+    position: absolute;
+    left:75%;
+    top: 50%;
+    border: 3px solid black;
+    border-radius: 20px;
+    visibility: hidden;
+}
+#reset{
+    background-color: #4CAF50;
+    float: left;
+    margin: 20px 20px;
+    position: fixed;
+    height: 70px;
+    width: auto;
+    font-size: 2em;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+#reset:hover{
+    background: rgba(255, 192, 203, 0.90);
+}
+#menu{
+    height: 70px;
+    width: auto;
+    margin: 0;
+    padding: 0 10px;
+    background: skyblue;
+    font-size: 1.5em;
+    position: relative;
+    top: 5%;
+    left: 90%;
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 20px;
+    visibility: visible;
+    font-weight: bold;
+}
+#menu:hover{
+    background: rgba(255, 192, 203, 0.90);
+}
+#slct_plyr{
+    height: 70px;
+    width: 100px;
+    margin: 0;
+    padding: 0 10px;
+    background: skyblue;
+    font-size: 1em;
+    font-weight: bold;
+    position: relative;
+    top: 5%;
+    left: 80%;
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 20px;
+    visibility: visible;
+}
+#slct_plyr:hover{
+    background: rgba(255, 192, 203, 0.90);
+}
+#xcounter{
+    font-weight: bold;
+    font-size: 1.5em;
+    display: block;
+    position: absolute;
+    left: 5%;
+    top: 35%;
+}
+#ocounter{
+    font-weight: bold;
+    font-size: 1.5em;
+    display: block;
+    position: absolute;
+    left: 77%;
+    top: 35%;
+}
+.playerX{
+    font-weight: bold;
+    font-size: 1.5em;
+    display: block;
+    position:absolute;
+    left: 10%;
+    top: 30%;
+}
+.playerO{
+    font-weight: bold;
+    font-size: 1.5em;
+    display: block;
+    position:absolute;
+    left: 82%;
+    top: 30%;
+}
+@media screen and (max-width: 1020px){
+#xcontainer{
+    left: 2%;
+    font-size: 2em;
+    height: 40px
+}
+#ocontainer{
+    left: 83%;
+    font-size: 2em;
+    height: 40px
+}
+}
